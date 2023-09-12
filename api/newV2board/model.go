@@ -32,9 +32,9 @@ type v2ray struct {
 	NetworkSettings struct {
 		Path        string           `json:"path"`
 		Headers     *json.RawMessage `json:"headers"`
-		ServiceName string           `json:"serviceName"`
+		ServiceName string           `json:"server_name"`
 		Header      *json.RawMessage `json:"header"`
-	} `json:"networkSettings"`
+	} `json:"network_settings"`
 	Tls int `json:"tls"`
 }
 
